@@ -1,0 +1,5 @@
+"Name","Email","Groups","Date/Time","Status"
+"User 1","user1@users.com","Group A,Group B","2010-01-01 01:00:00","Active"
+"User 2","user2@users.com","Group A","2010-01-01 02:00:00","Banned"
+"User 3","user3@users.com","Group B","2010-01-01 03:00:00","Not Confirmed"
+"User 4","user4@users.com","","2010-01-01 04:00:00","Unsubscribed"

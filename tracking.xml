@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<req:TrackingResponse xmlns:req="http://www.dhl.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dhl.com TrackingResponse.xsd">
+    <Response>
+        <ServiceHeader>
+            <MessageTime>2018-10-05T13:02:44+01:00</MessageTime>
+            <MessageReference>1234567890123456789012345678</MessageReference>
+            <SiteID>DServiceVal</SiteID>
+        </ServiceHeader>
+    </Response>
+    <AWBInfo>
+        <AWBNumber>8564385550</AWBNumber>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>FRA</ServiceAreaCode>
+                <Description>FRANKFURT-DEU</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>MLA</ServiceAreaCode>
+                <Description>MALTA-MLT</Description>
+            </DestinationServiceArea>
+            <ShipperName>STANDARD CHARTERED BANK</ShipperName>
+            <ShipperAccountNumber>144193851</ShipperAccountNumber>
+            <ConsigneeName>BANK OF VALLETTA P.L.C</ConsigneeName>
+            <ShipmentDate>2013-02-14T15:14:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>0.08</Weight>
+            <WeightUnit>K</WeightUnit>
+            <GlobalProductCode>U</GlobalProductCode>
+            <ShipmentDesc>1402130018</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>Frankfurt/Main</City>
+                <PostalCode>60486</PostalCode>
+                <CountryCode>DE</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>Santa Venera</City>
+                <PostalCode>9030</PostalCode>
+                <CountryCode>MT</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>Doc</ReferenceID>
+            </ShipperReference>
+            <ShipmentEvent>
+                <Date>2013-02-14</Date>
+                <Time>15:14:00</Time>
+                <ServiceEvent>
+                    <EventCode>SD</EventCode>
+                    <Description>Shipment information received</Description>
+                </ServiceEvent>
+                <Signatory/>
+                <ServiceArea>
+                    <ServiceAreaCode>FRA</ServiceAreaCode>
+                    <Description>FRANKFURT-DEU</Description>
+                </ServiceArea>
+            </ShipmentEvent>
+        </ShipmentInfo>
+    </AWBInfo>
+    <AWBInfo>
+        <AWBNumber>8564385550</AWBNumber>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>MIL</ServiceAreaCode>
+                <Description>MILAN-ITA</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>TSF</ServiceAreaCode>
+                <Description>TREVISO-ITA</Description>
+            </DestinationServiceArea>
+            <ShipperName>FORMINOVA SRL</ShipperName>
+            <ShipperAccountNumber>106230385</ShipperAccountNumber>
+            <ConsigneeName>VIANELLO SRL</ConsigneeName>
+            <ShipmentDate>2018-04-24T10:10:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>8.9</Weight>
+            <WeightUnit>K</WeightUnit>
+            <GlobalProductCode>N</GlobalProductCode>
+            <ShipmentDesc>MINUTERIA</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>BUCCINASCO</City>
+                <PostalCode>20090</PostalCode>
+                <CountryCode>IT</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>MURANO</City>
+                <PostalCode>30141</PostalCode>
+                <CountryCode>IT</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>108250</ReferenceID>
+            </ShipperReference>
+        </ShipmentInfo>
+    </AWBInfo>
+    <AWBInfo>
+        <AWBNumber>8564385550</AWBNumber>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>EIN</ServiceAreaCode>
+                <Description>EINDHOVEN-NLD</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>MME</ServiceAreaCode>
+                <Description>TEESSIDE-GBR</Description>
+            </DestinationServiceArea>
+            <ShipperName>MENLO LOGISTICS</ShipperName>
+            <ShipperAccountNumber>191197482</ShipperAccountNumber>
+            <ConsigneeName>KERRY FORT</ConsigneeName>
+            <ShipmentDate>2016-01-14T00:00:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>1.0</Weight>
+            <WeightUnit>K</WeightUnit>
+            <GlobalProductCode>W</GlobalProductCode>
+            <ShipmentDesc>ESU</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>MAASTRICHT</City>
+                <PostalCode>6222 NV</PostalCode>
+                <CountryCode>NL</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>LEYBURN</City>
+                <PostalCode>DL8 5DY</PostalCode>
+                <CountryCode>GB</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>BOX A ; O;</ReferenceID>
+            </ShipperReference>
+        </ShipmentInfo>
+    </AWBInfo>
+    <AWBInfo>
+        <AWBNumber>8564385550</AWBNumber>
+        <Status>
+            <ActionStatus>success</ActionStatus>
+        </Status>
+        <ShipmentInfo>
+            <OriginServiceArea>
+                <ServiceAreaCode>EIN</ServiceAreaCode>
+                <Description>EINDHOVEN-NLD</Description>
+            </OriginServiceArea>
+            <DestinationServiceArea>
+                <ServiceAreaCode>CPH</ServiceAreaCode>
+                <Description>COPENHAGEN-DNK</Description>
+            </DestinationServiceArea>
+            <ShipperName>SYNCREON - TECHNOLOGY</ShipperName>
+            <ShipperAccountNumber>954313184</ShipperAccountNumber>
+            <ConsigneeName>BO DREJER</ConsigneeName>
+            <ShipmentDate>2016-09-15T13:06:00</ShipmentDate>
+            <Pieces>1</Pieces>
+            <Weight>0.54</Weight>
+            <GlobalProductCode>U</GlobalProductCode>
+            <ShipmentDesc>ELECTRONIC GOODS</ShipmentDesc>
+            <DlvyNotificationFlag>Y</DlvyNotificationFlag>
+            <Shipper>
+                <City>Waalwijk</City>
+                <PostalCode>5145 RK</PostalCode>
+                <CountryCode>NL</CountryCode>
+            </Shipper>
+            <Consignee>
+                <City>Allerod</City>
+                <PostalCode>3450</PostalCode>
+                <CountryCode>DK</CountryCode>
+            </Consignee>
+            <ShipperReference>
+                <ReferenceID>8788404409</ReferenceID>
+            </ShipperReference>
+        </ShipmentInfo>
+    </AWBInfo>
+    <LanguageCode>en</LanguageCode>
+</req:TrackingResponse>
+<!-- ServiceInvocationId:20181005130244_97ed_274555fb-8efc-43e4-a4dd-8aca9ad7f2f7 -->

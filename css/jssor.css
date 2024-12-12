@@ -1,0 +1,72 @@
+.jssorl-oval img {
+	animation-name: jssorl-oval;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes jssorl-oval {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorBullets div           (normal)
+.jssorBullets div:hover     (normal mouseover)
+.jssorBullets .av           (active)
+.jssorBullets .av:hover     (active mouseover)
+.jssorBullets .dn           (mousedown)
+*/
+.jssorBullets {
+	position: absolute;
+}
+.jssorBullets div, .jssorBullets div:hover, .jssorBullets .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 16px;
+	height: 16px;
+	background: url('../images/jssor/bullets.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorBullets div { background-position: -7px -7px; }
+.jssorBullets div:hover, .jssorBullets .av:hover { background-position: -37px -7px; }
+.jssorBullets .av { background-position: -67px -7px; }
+.jssorBullets .dn, .jssorBullets .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 22 css */
+/*
+.jssorLeftArrow                  (normal)
+.jssorRightArrow                  (normal)
+.jssorLeftArrow:hover            (normal mouseover)
+.jssorRightArrow:hover            (normal mouseover)
+.jssorLeftArrow.jssorLeftArrowdn      (mousedown)
+.jssorRightArrow.jssorRightArrowdn      (mousedown)
+.jssorLeftArrow.jssorLeftArrowds      (disabled)
+.jssorRightArrow.jssorRightArrowds      (disabled)
+*/
+.jssorLeftArrow, .jssorRightArrow {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 40px;
+	height: 58px;
+	cursor: pointer;
+	background: url('../images/jssor/arrows.png') center center no-repeat;
+	overflow: hidden;
+}
+.jssorLeftArrow { background-position: -10px -31px; }
+.jssorRightArrow { background-position: -70px -31px; }
+.jssorLeftArrow:hover { background-position: -130px -31px; }
+.jssorRightArrow:hover { background-position: -190px -31px; }
+.jssorLeftArrow.jssorLeftArrowdn { background-position: -250px -31px; }
+.jssorRightArrow.jssorRightArrowdn { background-position: -310px -31px; }
+.jssorLeftArrow.jssorLeftArrowds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+.jssorRightArrow.jssorRightArrowds { background-position: -70px -31px; opacity: .3; pointer-events: none; }

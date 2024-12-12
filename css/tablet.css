@@ -1,0 +1,526 @@
+
+@media all and (max-width : 1024px)
+{
+	header #Desktop, header nav
+	{
+		display  :  none;
+	}
+	
+	header #Mobile
+	{
+		display             :  block;
+		padding             :  20px;
+		background          :  rgba(255, 255, 255, 0.95);
+		
+		-webkit-box-shadow  :  0 7px 8px rgba(0, 0, 0, 0.12);
+		-moz-box-shadow     :  0 7px 8px rgba(0, 0, 0, 0.12);
+		box-shadow          :  0 7px 8px rgba(0, 0, 0, 0.12);
+	}
+	
+	header #Mobile span.nav
+	{
+		cursor   :  pointer;
+		display  :  inline-block;
+	}
+	
+	header #Mobile span.nav:hover
+	{
+		color  :  #5f3982;
+	}
+	
+	header #Mobile span.nav i
+	{
+		cursor  :  pointer;
+	}
+	
+	header #Mobile a.cart
+	{
+	  font-size  :  16px;
+	}
+
+	header #Mobile a.cart i
+	{
+	  line-height  :  22px;
+	  height       :  24px;
+	  font-size    :  24px;
+	}
+
+	header #Mobile a.cart span
+	{
+	  line-height  :  20px;
+	  height       :  20px;
+	  min-width    :  20px;
+	  font-size    :  11px;
+	}
+	
+	header #Mobile #AccountDiv a i
+	{
+		font-size  :  22px;
+	}
+	
+	header #LoginPopup, header #AccountPopup
+	{
+		left  :  -180px;
+	}
+	
+	header #LoginPopup:before, header #AccountPopup:before
+	{
+	    left  :  181px;  
+	}
+
+	header #LoginPopup:after, header #AccountPopup:after
+	{
+	    left  :  182px;
+	}
+	
+	header #CartPopup
+	{
+		left  :  -465px;
+	}
+	
+	header #CartPopup:before
+	{
+	  left  :  508px;  
+	}
+
+	header #CartPopup:after
+	{
+	  left  :  509px;  
+	}
+	
+	header #CartPopup.empty
+	{
+	  left   :  -160px;
+	  width  :  200px;
+	}
+
+	header #CartPopup.empty:before
+	{
+	  left  :  176px;  
+	}
+
+	header #CartPopup.empty:after
+	{
+	  left  :  177px;  
+	}
+	
+	#Slider
+	{
+		margin-top  :  0px;
+	}
+	
+	
+	aside.nav
+	{
+		display             :  none;
+		position            :  fixed;
+		top                 :  0px;
+		left                :  0px;
+		bottom              :  0px;
+		width               :  270px;
+		background          :  #ffffff;
+		border-right        :  solid 1px #cccccc;
+		border-bottom       :  solid 4px #c6318b;
+		overflow            :  auto;
+		z-index             :  9999;
+		
+		box-shadow          :  2px 0px 10px #cccccc inset;
+		-moz-box-shadow     :  2px 0px 10px #cccccc inset;
+		-webkit-box-shadow  :  2px 0px 10px #cccccc inset;
+	}
+	
+	aside.nav ul li
+	{
+	    float  :  none;
+	}	
+	
+	aside.nav div.freeShipping
+	{
+		margin-top      :  20px;
+		line-height     :  28px;
+		height          :  28px;
+		background      :  url('../images/icons/shipping.png') 15px 5px no-repeat;
+		padding-left    :  43px;
+
+		font-size       :  12px;  
+		color           :  #d0d4d7;
+		text-transform  :  uppercase;		
+	}
+	
+	
+	footer
+	{
+		background  :  #ffffff;
+	}
+	
+	footer .contact .area
+	{
+		width           :  auto;
+		padding-bottom  :  0px;
+	}
+	
+	footer .contact .area b, footer .contact .area span
+	{
+		display         :  inline-block;
+		width           :  33%;
+		margin-left     :  0px;
+		text-align      :  center;
+		padding-bottom  :  10px;
+	}
+	
+	footer .contact .area span.socialLinks
+	{
+		display     :  block;
+		float       :  left;
+		clear       :  both;
+		background  :  #ffffff;
+		width       :  auto;
+		text-align  :  left;
+		padding     :  60px 0px 20px 0px;
+	}
+	
+	footer section.contact div span.socialLinks a, footer section.contact div span.socialLinks a:hover
+	{
+		font-size  :  21px;
+		color      :  #c6318b;
+	}
+	
+	footer section.contact div span.socialLinks a:hover
+	{
+		color  :  #613983;
+	}	
+	
+	footer section.links
+	{
+		width    :  auto;
+		padding  :  20px 20px 0px 20px;
+	}
+	
+	footer section.links ul li
+	{
+		display  :  none;
+	}
+	
+	footer section.links ul li.copyright
+	{
+		display    :  block;
+		float      :  right;
+		font-size  :  12px;
+		width      :  110px;
+	}
+	
+	footer section.links ul li.copyright img
+	{
+		max-width  :  100px;
+	}
+	
+	
+	#BodyDiv
+	{
+		width    :  auto;
+		padding  :  20px 15px 20px 15px;
+	}
+	
+	section.home
+	{
+		width   :  auto;
+		margin  :  0px 0px 30px 0px;
+	}
+}
+
+
+@media all and (max-width : 960px) 
+{
+	#ProductInfo #SeparatorTd
+	{
+		width  :  30px;
+	}
+}
+
+
+@media all and (max-width : 900px) 
+{
+	section.home #FeaturedCategories
+	{
+		display  :  block;
+		clear    :  both;
+		width    :  100%;
+	}
+	
+	section.home td.separator
+	{
+		display  :  block;
+		width    :  100%;
+		clear    :  both;
+		height   :  20px;
+	}
+	
+	section.home td.tdRight
+	{
+		display  :  block;
+		width    :  100%;
+		clear    :  both;
+	}
+	
+	section.home #TrendBook, section.home #Newsletter, section.home #NewArrival
+	{
+		display  :  inline-block;
+	}
+	
+	section.home #NewArrival
+	{
+		margin  :  0px 0px 0px 20px;
+	}
+	
+	section.home #TrendBook, section.home #NewArrival
+	{
+		width  :  calc(50% - 12px);
+	}
+	
+	
+	section.home #Newsletter
+	{
+		margin  :  0px 0px 0px 20px;
+		width   :  calc(100% - 290px);
+	}
+	
+	section.home #Newsletter #frmNewsletter
+	{
+		max-width  :  230px;
+	}
+	
+	
+	.categoriesGrid .gridItem div span
+	{
+	    left      :  25px;
+	    right     :  25px;
+	    bottom    :  32px;
+	}
+	
+	#LeftPanel, #ProductsPanel
+	{
+		display  :  block;
+		width    :  100%;
+		clear    :  both;
+	}
+	
+	
+	#frmFilters td
+	{
+		display  :  inline-block;
+	}
+	
+	#frmFilters td:first-child, #frmFilters td:nth-child(2), #frmFilters td:nth-child(3)
+	{
+		width  :  32%;
+	}
+	
+	#frmFilters td:nth-child(3) select, #frmFilters td:nth-child(3) .selectric
+	{
+		width  :  100%;
+	}
+	
+	#frmFilters td:nth-child(7)
+	{
+		padding-left  :  20px;
+		width         :  calc(100% - 400px);
+		max-width     :  200px;
+	}
+	
+	#frmFilters #SeparatorTd
+	{
+		clear    :  both;
+		display  :  block;
+		width    :  100%;
+		height   :  30px;
+	}
+	
+	#frmFilters .br10
+	{
+		height  :  40px !important;
+	}
+	
+	#RecentlyViewed td
+	{
+		display  :  block;
+		clear    :  both;
+		width    :  auto;
+	}
+	
+	#RecentlyViewed td h5
+	{
+		margin-bottom  :  10px;
+	}
+	
+	
+	#ProductInfo tr:first-child > td
+	{
+		display  :  inline-block;
+	}
+	
+	#ProductInfo #SeparatorTd
+	{
+		width  :  auto;
+	}
+	
+	#ProductInfo #ProductDetailsTd
+	{
+		display      :  block;
+		clear        :  both;
+		width        :  100%;
+		padding-top  :  20px;
+		margin-top   :  30px;
+		border-top   :  solid 10px #eeeeee;
+	}
+	
+	#ProductInfo .productAttr td
+	{
+		display  :  table-cell !important;
+	}
+	
+	#ProductShare, #ProductDetails
+	{
+		margin-top  :  15px;
+	}
+	
+	#ProductDetails
+	{
+		padding  :  0px;
+	}
+	
+	#ProductShare
+	{
+		padding-bottom  :  0px;
+	}
+	
+	
+	#ProductPicTd
+	{
+		width  :  calc(100% - 135px);
+	}
+	
+	#frmCheckout input.textbox
+	{
+		width  :  91%;
+	}
+	
+	#frmCheckout textarea
+	{
+		width  :  91% !important;
+	}
+	
+	#frmCheckout select
+	{
+		width  :  95%;
+	}
+	
+	
+	section.newsletter td
+	{
+		font-size  :  17px;
+	}
+	
+	section.newsletter input.textbox
+	{
+	  width      :  70%;
+	  font-size  :  16px;
+	  padding    :  4px 8px 4px 8px;
+	}
+}
+
+@media all and (max-width : 800px) 
+{
+	.categoriesGrid .gridItem div span
+	{
+	    left      :  20px;
+	    right     :  20px;
+	    bottom    :  25px;
+	}
+	
+	h1.category
+	{
+		font-size   :  36px;
+		margin-top  :  35px;
+	}
+	
+	#RelatedProducts
+	{
+		padding-bottom  :  0px;
+	}
+	
+	#RelatedProducts ul li, #RelatedProducts ul li:nth-child(3n)
+	{
+	    width   :  47.8% !important;
+	    margin  :  0px 2% 30px 0px !important;
+	}
+	
+	#RelatedProducts ul li:nth-child(2), #RelatedProducts ul li:last-child
+	{
+		margin-right  :  0px !important;
+	}
+	
+	
+	#frmCart .item .pictureTd, #frmCart .item .separatorTd
+	{
+		display  :  none;
+	}
+	
+	
+	#LoginRegister td form, #MyAccount td form
+	{
+		width   :  80% !important;
+		margin  :  0px auto 0px auto;
+	}
+	
+	#LoginRegister td form select, #MyAccount td form select
+	{
+		width  :  99%;
+	}
+	
+	#LoginRegister .g-recaptcha
+	{
+	  transform          :  scale(0.92);
+	  -webkit-transform  :  scale(0.92);
+	  -moz-transform     :  scale(0.92);
+	}
+	
+	
+	#frmCheckout #TdCustomer, #frmCheckout #TdOrder, #frmCheckout #TdSeparator
+	{
+		display  :  block;
+		clear    :  both;
+		width    :  100%;
+	}
+	
+	#frmCheckout #TdSeparator
+	{
+		height  :  30px;
+	}
+	
+	
+	.scroller
+	{
+		overflow   :  scroll;
+	}
+	
+	.scroller .grid, .scroller .table
+	{
+		min-width  :  850px;
+	}
+	
+	
+	section.newsletter td:first-child
+	{
+		width  :  60% !important;
+	}
+	
+	section.newsletter td:last-child
+	{
+		width  :  40% !important;
+	}
+	
+	section.newsletter td
+	{
+		font-size  :  16px;
+	}
+}
